@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return { "time": datetime.now() }
+    return { "message": "hello Mike! }
